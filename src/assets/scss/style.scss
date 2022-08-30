@@ -1,6 +1,6 @@
-body {
-    background-color: rgb(37, 37, 37);
-    color: white;
-}
 
-@import './style2.scss'
+@import './../scss/base/normalize';
+@import './../scss/blocks/acts';
+@import './../scss/blocks/tables';
+@import './../scss/blocks/results';
+
