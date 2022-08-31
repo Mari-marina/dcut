@@ -360,7 +360,8 @@ h1,
 h2,
 h3,
 h4,
-li {
+li,
+tr {
   font-family: "Montserrat";
 }
 li {
@@ -392,6 +393,7 @@ body {
     margin-bottom: 24px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 }
 
