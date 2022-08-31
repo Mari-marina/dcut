@@ -14,6 +14,11 @@ line-height: 17px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   }
+  &__column_none {
+    @media all and (max-width: 730px) {
+      display: none;
+    }
+  }
   &__column_first {
     width: 585px;
     background: #0067B0;
@@ -21,6 +26,12 @@ box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.1);
 border-radius: 8px;
 height: 50px;
 color: #ffffff;
+@media all and (max-width: 1090px) {
+  width: 485px;
+    }
+    @media all and (max-width: 920px) {
+      width: 385px;
+        }
   }
   &__wrap {
     display: flex;
