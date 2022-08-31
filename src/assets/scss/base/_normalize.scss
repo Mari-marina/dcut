@@ -443,3 +443,9 @@ p, details, summary, td {
   box-sizing: border-box;
 }
 
+a, summary {
+  cursor: pointer;
+}
+a {
+  color: inherit;
+}
